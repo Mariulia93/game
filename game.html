@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilla's Basket</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+
+    <audio id="yummy" src="sound/Yummyedited.mp3"></audio>
+    <audio id="baddy" src="sound/badapple.mp3"></audio>
+    <audio id="music" src="sound/screen_music.mp3"></audio>
+    <audio id="music_level_complete" src="sound/Level complete_edited.mp3"></audio>
+    <audio id="music_game_lost" src="sound/Level lost_edited.mp3"></audio>
+
+</body>
+<header>
+    <nav>
+        <ul>
+            <!-- <li><a href="index.html">Asset list</a></li> -->
+            <li><a href="game.html">Shilla's Basket</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="screen">
+        <div id="game" class="hidden">
+            <div id="game_background"></div>
+            <div id="game_sprites">
+                <div id="a_container1">
+                    <div id="a_sprite1"></div>
+                </div>
+                <div id="a_container2">
+                    <div id="a_sprite2"></div>
+
+                </div>
+                <div id="a_container3">
+                    <div id="a_sprite3"></div>
+                </div>
+                <div id="a_container4">
+                    <div id="a_sprite4"></div>
+                </div>
+                <div id="a_container5">
+                    <div id="a_sprite5"></div>
+                </div>
+                <div id="a_container6">
+                    <div id="a_sprite6"></div>
+                </div>
+            </div>
+            <div id="game_foreground"></div>
+            <div class="game_ui">
+                <div id="score_board">
+                    <span id="points">0</span>
+                </div>
+                <div id="health_board">
+                    <div id="heart1"></div>
+                    <div id="heart2"></div>
+                    <div id="heart3"></div>
+                </div>
+                <div id="time_board">
+                    <span id="timeLeft">30</span>
+                </div>
+            </div>
+            <div id="a_container0">
+                <div id="tail" class="rotate"></div>
+            </div>
+            <div id="title_screen" class="hidden">
+                <div id="play_button"></div>
+                <div id="how_to_play"></div>
+                <div id="music_button"></div>
+                <div id="no_music_button" class="hidden"></div>
+                <div id="sound_button"></div>
+                <div id="no_sound_button" class="hidden"></div>
+            </div>
+
+            <div id="instructions" class="hidden">
+                <h1>Baby elephant Shilla loves apples. Let's help her gather 20 apples to fill the basket.
+                    You have 30 seconds to gather 20 good apples but be aware of the bad apples.
+                    With each bad apple collected you'll lose a life.</h1>
+                <div id="start_button"></div>
+            </div>
+
+            <div id="game_over" class="hidden">
+                <h1>Oh, no. You lost and Baby Shilla is still hungry.</h1>
+                <div id="tears" class="drop"></div>
+                <div id="try_again_button1"></div>
+            </div>
+
+            <div id="level_complete" class="hidden">
+                <h1>Congratulations! Baby Shilla loves her rich basket.</h1>
+                <div id="hearts" class="strech"></div>
+                <div id="play_again_button2"></div>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <h1>Shilla's Basket </h1>
+        <h2>Your objective: </h2>
+        <h3>Collect enough apples to feed Baby Elephant Shilla</h3>
+        <h2>Do:</h2>
+        <h3>Click on the good apples in order to fill the basket</h3>
+        <h2>Don't:</h2>
+        <h3>Click on the bad apples, they can make sick baby elephant Shilla</h3>
+    </aside>
+</main>
+<footer> </footer>
+<script src="Scripts/myjs.js"> </script>
+</body>
+
+</html>
